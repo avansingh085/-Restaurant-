@@ -1,0 +1,473 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ 
+
+
+
+
+/* .main{
+  height:80px;
+  width:100%;
+  display: grid;
+  grid-template-columns: 40% 8% 8% 8% 8% 14% 14%;
+  align-items: center;
+  justify-items: center;
+  background-color: darkorchid;
+} */
+
+.footer{
+  height:300px;
+  width:100%;
+  display:grid;
+  align-items: center;
+  justify-items: center;
+  /* background-color: rgb(154, 215, 224); */
+  background-color: black;
+
+}
+.AboutCard{
+  overflow-y: hidden;
+
+}
+.Header-Res{
+  height:100px;
+  width:100%;
+  background-color:black;
+  display:grid;
+  grid-auto-flow: column;
+  align-content:space-evenly;
+}
+.font-img{
+  height:300px;
+  width:100%;
+
+}
+.items-header{
+  min-height: 100vh;
+  width:100%;
+  background-color:rgb(10, 10, 23);
+}
+
+.Header-Res-Link{
+  text-decoration: none;
+}
+.main{
+  min-height:100vh;
+  width:100%;
+}
+.items-header-button{
+  height:40px;
+  width:200px;
+  border-radius: 7px;
+  font-size: larger;
+  border-width: 0px;
+  background-color: darkorange;
+  color:aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.items-header-button:hover{
+background-color:rgb(22, 172, 22);
+}
+
+.Card{
+  height:350px;
+  width:250px;
+  background-color: rgb(9, 16, 34);
+  margin:30px auto;
+  background-color:white;
+  border-radius:5px;
+}
+.card-img{
+  border-radius:5px;
+  width:250px;}
+.card-footer{
+  height:40px;
+  width:180px;
+  display:grid;
+   grid-template-columns: 50% 50%;
+  align-items:center;
+  justify-items:center;
+}
+.logo{
+  height:50px;
+  width:200px;
+}
+.font-img{
+  width:100%;
+}
+.likelogo{
+  height:30px;
+  
+  width:30px;
+}
+.Purchace{
+  height:100vh;
+  width:100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  background-color:rgb(3, 3, 36);
+   background-color: rgb(12, 12, 52); 
+
+}
+.PaymentModTittle{
+  height:40px;
+  width:230px;
+  background-color:rgb(48, 48, 188);
+  text-align: center;
+  color:white;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+.PayBox{
+  height:60px;
+  width:400px;
+  /* background-color: rgb(102, 26, 201); */
+  background-color: rgb(9, 9, 26);
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+  border-radius: 10px;
+
+}
+.PayBoxLogo{
+  height:40px;
+  width:60px;
+}
+.PayBoxTittle{
+  height:40px;
+  width:200px;
+  text-align: center;
+   color:white;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.PaymentLink{
+  text-decoration: none;
+}
+.PayBoxBar{
+  height:2px;
+  width:250px;
+  background-color: rgb(182, 161, 134);
+}
+.PayBox1{
+  height:67px;
+  width:400px;
+  /* background-color: white; */
+  display:grid;
+  align-items:center;
+  justify-items:center;
+}
+.PayBox:hover{
+  background-color:rgb(34, 187, 34);
+}
+.PayBoxArrow{
+  height:15px;
+  width:15px;
+
+}
+.PaymentForm{
+  height:330px;
+  width:350px;
+  display: grid;
+  border-radius:30px;
+  align-items: center;
+  justify-items: center;
+  background-color: aliceblue;
+  padding-left:30px;
+  background-color: black;
+}
+.PaymentInput{
+  height:25px;
+  width:200px;
+  border-color: aqua;
+  outline: rgb(125, 13, 106);
+}
+.PaymentForm1{
+  height:350px;
+  width:370px;
+  display: grid;
+  background-image:radial-gradient(rgb(255, 0, 195),green,rgb(99, 99, 193));
+  
+  align-items: center;
+  animation-name:sty;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  justify-items: center;
+  border-radius: 20px;
+  padding-left:20px;
+}
+@keyframes sty {
+  from{background-image:radial-gradient(rgb(255, 0, 195),green,rgb(99, 99, 193));}
+  to{background-image:radial-gradient(rgb(255, 183, 0),green,rgb(213, 14, 186));}
+}
+.PaymentMod{
+  height:100vh;
+  width:100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position:absolute;
+  /* background-color: aliceblue; */
+  color:white;
+  background-color: black;
+  background-color: black;
+}
+.FormDetails{
+  height:180px;
+  width:350px;
+  display: grid;
+  align-items: center;
+  
+}
+.FormFooter{
+  height:60px;
+  width:350px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+.paymentModFooter{
+  height:36px;
+  width:100px;
+  background-color: blue;
+  border-width: 0px;
+  color:white;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paymentModFooter:hover{
+  background-color:aqua;
+}
+.BuyButton{
+  height:35px;
+  width:100px;
+}
+.CardLikeTittle{
+  height:40px;
+  width:250px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+  margin-top:-1px;
+}
+.CardBox{
+  height:300px;
+  width:250px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.AboutCard{
+  height:30px;
+   width:200px;
+}
+@media screen and (min-width: 1100px) and (max-width: 1800px) {
+  .items-header-in{
+    height:70px;
+    width:100%;
+    background-color:cornflowerblue;
+    display: grid;
+    grid-auto-flow: column;
+    align-content: space-around;
+  }
+  .fal{
+    display:block;
+  }
+  .FoodsCard{
+    min-height:500px;
+    width:100%;
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    align-items:center;
+    justify-items:center;
+  }
+  
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  .fal{
+    display:none;
+  }
+  .items-header-in{
+    height:140px;
+    width:100%;
+    background-color:cornflowerblue;
+    display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+  }
+  .FoodsCard{
+    min-height:500px;
+    width:100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items:center;
+    justify-items:center;
+  }
+}
+@media screen and  (min-width: 300px) and (max-width: 600px) {
+  .fal{
+    display:none;
+  }
+  .items-header-in{
+    height:260px;
+    width:100%;
+    background-color:cornflowerblue;
+    display: grid;
+  align-items: center;
+  justify-items: center;
+  }
+  .FoodsCard{
+    min-height:500px;
+    width:100%;
+    display:grid;
+    
+    align-items:center;
+    justify-items:center;
+  }
+}
+.help{
+  height:85vh;
+  width:100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  background-color:rgb(11, 11, 35);
+}
+.ChatBox{
+  height:400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width:800px;
+  
+  float: right;
+      
+}
+.ChatBox::-webkit-scrollbar{
+  display: none;
+}
+.Chating{
+  min-height:70px;
+  width:300px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: aquamarine;
+  
+}
+.ChatingMessage{
+  margin-top:-20px;
+  margin-left:50px;
+  color:white;
+  
+   min-height: 50px;
+   width:200px;
+  align-self:bottom;
+}
+.ChatingName{
+  margin-top:10px;
+  margin-left:30px;
+  color:blueviolet;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MyChat{
+  height:40px;
+  width:700px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+.MyChatInput{
+  height:40px;
+  width:500px;
+   font-weight: bolder;
+   font-size:20px;
+   border-radius: 10px;
+   outline: none;
+   color:blue;
+}
+.MyChatButton{
+border-radius: 10px;
+border-width: 0px;
+background-color:rgb(5, 5, 226);
+  height:40px;
+  width:150px;
+  font-size: larger;
+  color:aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MyChatButton:hover{
+background-color: green;
+border-radius: 12px;
+}
+.LoginBoxOption{
+  height:100px;
+  width:270px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+.LoginBoxOptionLogo{
+  height:50px;
+  width:50px;
+  border-radius: 100%;
+}
+.LoginBoxOptionLogo:hover{
+  background-color:white;
+}
+.Login{
+  height:100vh;
+  width:100%;
+  /* background-color: rgb(4, 4, 32); */
+  background-color: black;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.LoginBox{
+  height:120px;
+  color:white;
+  width:400px;
+}
+.Email,.EmailPassword{
+  height:32px;
+  width:300px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  font-weight: bolder;
+  outline: none;
+  border-radius: 10px;
+}
+.footerlink{
+  height:50px;
+  width:300px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+  
+}
+.Link{
+  text-decoration: none;
+  color:white;
+  font-weight: bolder;
+  font-size: larger;
+}
